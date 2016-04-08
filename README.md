@@ -16,7 +16,8 @@ He enjoys articles shared by his social network friends and also does not hesita
 
 ##### Negative
 
-He is a creative person, who has lot of potential and qualities, but his main defect is that he use them in the wrong way. He is a person who mostly of the time, makes fun of others and criticise them instead of taking care of him and develop his abilities. He may also manifest himself on internet very often.
+He is a creative person, who has lot of potential and qualities, but his main defect is that he use them in the wrong way. He is a person who mostly of the time, makes fun of others and criticise them instead of taking care of him and develop his abilities. He may also manifest himself on internet very often by using inappropriate words.
+
 ### Application LOGO
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/Logo/poetr-logo.png?raw=true)
