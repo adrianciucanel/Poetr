@@ -26,6 +26,17 @@ He is a creative person, who has lot of potential and qualities, but his main de
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/Logo/poetr-logo.png?raw=true)
 
+### Sketches used in all three concepts
+
+Create account sketches are available for all three concepts.
+
+##### Create account on smartphone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/create-account-smartphone.jpg?raw=true)
+
+##### Create account on tablet and computer
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/create-account-tablet-and-web.jpg?raw=true)
 
 ### First concept
 
