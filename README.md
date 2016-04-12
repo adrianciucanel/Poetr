@@ -40,6 +40,16 @@ Create account sketches are available for all three concepts.
 
 ### First concept
 
+The first concept contains a minimalistic design that enables user to focus on writing poetries, but, in the sam time, it offers a nice set of functionalities.
+
+##### Sketches
+
+This sketches describes the interface on mobile and web.
+
+####### The application menu
+
+![alt tag](https://raw.githubusercontent.com/adrianciucanel/Poetr/master/concept-1/sketches/app-menu-tablet-and-phone.jpg)
+
 ##### Storyboard
 
   The main character is working on a music studio and has a deadline for creating some lyrics for one of the studio bands. He tries to do that but he is sometimes stuck with finding some good rhymes. He started using Poetr application for making his work easier.  
