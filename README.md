@@ -46,9 +46,9 @@ The first concept contains a minimalistic design that enables user to focus on w
 
 This sketches describes the interface on mobile and web.
 
-####### The application menu
+###### The application menu on tablet and phone
 
-![alt tag](https://raw.githubusercontent.com/adrianciucanel/Poetr/master/concept-1/sketches/app-menu-tablet-and-phone.jpg)
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/application-menu-tablet-and-phone.jpg?raw=true)
 
 ##### Storyboard
 
