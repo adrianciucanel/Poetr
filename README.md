@@ -50,6 +50,38 @@ This sketches describes the interface on mobile and web.
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/application-menu-tablet-and-phone.jpg?raw=true)
 
+###### The application menu on widescreen
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/my-poetries-web.jpg?raw=true)
+
+###### The My Poetries section on tablet and phone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/my-poetries-tablet-and-phone.jpg?raw=true)
+
+###### The Actions on My Poetries section on tablet and phone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/actions-on-each-poetry-tablet-and-phone.jpg?raw=true)
+
+###### The Actions on My Poetries section on widescreen
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/actions-on-poetries-web.jpg?raw=true)
+
+###### The Share section on tablet and phone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/share-tablet-and-phone.jpg?raw=true)
+
+###### The Options section tablet and phone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/settings-tablet-and-phone.jpg?raw=true)
+
+###### Writing Poetry tablet and phone
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/writing-poetry-tablet-and-phone.jpg?raw=true)
+
+###### Writing Poetry on widescreen
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/writing-poetry-web.jpg?raw=true)
+
 ##### Storyboard
 
   The main character is working on a music studio and has a deadline for creating some lyrics for one of the studio bands. He tries to do that but he is sometimes stuck with finding some good rhymes. He started using Poetr application for making his work easier.  
