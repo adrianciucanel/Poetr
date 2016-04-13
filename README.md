@@ -100,6 +100,14 @@ This sketches describes the interface on mobile and web.
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/storyboard/Poetr-song-lyrics-creation-storyboad.png?raw=true)
 
+### Second concept
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story1.jpg?raw=true)
+concept-2/storyboard/
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story2.jpg?raw=true)
+concept-2/storyboard/
+
+
 ### Third concept
 
 ##### Storyboard
