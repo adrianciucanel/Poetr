@@ -102,10 +102,11 @@ This sketches describes the interface on mobile and web.
 
 ### Second concept
 
+Un baiat vrea sa impresioneze o fata cu care s-a imprietenit pe facebook
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story1.jpg?raw=true)
-concept-2/storyboard/
+Adevaratul sens al libertatii oferit de universul poetic
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story2.jpg?raw=true)
-concept-2/storyboard/
+
 
 
 ### Third concept
