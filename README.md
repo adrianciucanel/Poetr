@@ -29,6 +29,9 @@ He is a creative person, who has lot of potential and qualities, but his main de
 #### Secondary
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/Personas/Secondary.jpg?raw=true)
+#### Supplemental si Served
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/Personas/personar.jpg?raw=true)
 
 ### Application LOGO
 
