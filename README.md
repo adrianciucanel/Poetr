@@ -153,6 +153,8 @@ If the user is not logged in, there is a box with 4 options :
 
 It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily to visitors concerns .     
 
+##### Storyboards
+
 A boy wants to impress a girl he befriended on Facebook
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story1.jpg?raw=true)
 The real sense of freedom offered by poetic universe
