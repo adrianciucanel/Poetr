@@ -4,6 +4,13 @@
 
    Interactive application that would help users write poetry or song lyrics by automatically recommending words to build a certain rhyme, based on the last word from the previous verse(s). The tool will provide two modes for writing: one based on a fixed word the application recommends and one in which the user will have the possibility to select from a list of words – eventually, already created (this list has to fit the context). The generated poems/lyrics could be also shared via blogs/social networks and stored in a cloud.
 
+### Team
+	
+Team Members:
+* Adrian Ciucanel
+* Theodor Razvan Dabija
+* Petronel Sergiu Gutanu
+   
 ### Personas used in creation of the appication
 
 ##### Served
@@ -148,7 +155,7 @@ How the user is introduced to the application?
 If the user is not logged in, there is a box with 4 options :
 * She/he can watch a short video tutorial that shows the facility of the application and simulates the composition of a poem ; 
 * She/he can read a series of frequently asked questions and answers ;
-* She/he can enter directly into the application and composing a poem ;
+* She/he can enter directly into the application and compose a poem ;
 * She/he can learn poetry's ABC. 
 
 It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily to visitors concerns .     
