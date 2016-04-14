@@ -119,6 +119,40 @@ Options:
 
 ### Second concept
 
+##### Sketches
+
+###### First Page
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/firstpage.jpg?raw=true)
+
+###### Main Page
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/mainpage.jpg?raw=true)
+
+###### First Settings page
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/setari1.jpg?raw=true)
+
+###### Second Settings page
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/setari2.jpg?raw=true)
+
+##### Wireframe
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/Wireframe/model.jpg?raw=true)
+
+##### Second QOC
+
+How the user is introduced to the application?
+
+If the user is not logged in, there is a box with 4 options :
+1. She/he can watch a short video tutorial that shows the facility of the application and simulates the composition of a poem ; 
+2. She/he can read a series of frequently asked questions and answers ;
+3. She/he can enter directly into the application and composing a poem ;
+4. She/he can learn poetry's ABC. 
+
+It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily to visitors concerns .     
+
 A boy wants to impress a girl he befriended on Facebook
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story1.jpg?raw=true)
 The real sense of freedom offered by poetic universe
@@ -150,7 +184,7 @@ The real sense of freedom offered by poetic universe
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-3/Prototype/Prototype.png?raw=true)
 
-##### QOC
+##### Third QOC
 
 Question: 
 	How do I connect my account?
