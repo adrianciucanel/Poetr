@@ -132,3 +132,6 @@ Adevaratul sens al libertatii oferit de universul poetic
 ##### Prototype
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-3/Prototype/Prototype.png?raw=true)
+
+##### QOC
+
