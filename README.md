@@ -135,3 +135,14 @@ Adevaratul sens al libertatii oferit de universul poetic
 
 ##### QOC
 
+Question: 
+	How do I connect my account?
+Options:
+	-> Standard user/password
+	-> Social networks
+	-> Fingerprint
+	-> Facial recognition
+
+Criteria:
+	-> easy to connect
+	-> connect with the world (make your app know on social networks) (sharing)
