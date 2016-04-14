@@ -102,9 +102,9 @@ This sketches describes the interface on mobile and web.
 
 ### Second concept
 
-Un baiat vrea sa impresioneze o fata cu care s-a imprietenit pe facebook
+A boy wants to impress a girl he befriended on Facebook
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story1.jpg?raw=true)
-Adevaratul sens al libertatii oferit de universul poetic
+The real sense of freedom offered by poetic universe
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-2/storyboard/story2.jpg?raw=true)
 
 
