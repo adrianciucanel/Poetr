@@ -93,6 +93,23 @@ This sketches describes the interface on mobile and web.
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/concept-1/sketches/writing-poetry-web.jpg?raw=true)
 
+##### First QOC
+
+How should application sugest rhymes to the user ?
+
+Options:
+* search
+..* the user can browse the results that the serch operations offers
+..* the user can chose when he need a new rhyme
+* presenting a list
+..* the operations is faster then search
+..* can be triggered automatically when the user reach near the end of an row
+* autocomplete by presenting a list
+..* is the fastest solution as user experience
+..* the autocomplete is triggered near the end of the row
+..* the best fit is place first and the user can just press enter for choosing it
+
+
 ##### Storyboard
 
   The main character is working on a music studio and has a deadline for creating some lyrics for one of the studio bands. He tries to do that but he is sometimes stuck with finding some good rhymes. He started using Poetr application for making his work easier.  
