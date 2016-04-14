@@ -6,4 +6,4 @@ If the user is not logged in, there is a box with 4 options :
 3. She/he can enter directly into the application and composing a poem ;
 4. She/he can learn poetry's ABC. 
 
-It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily visitors concerns .     
+It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily to visitors concerns .     
