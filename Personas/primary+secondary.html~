@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8"/>
+<meta name="publisher" content="blankdots.com"/>
+<meta name="author" content="Stefan Negru"/>
+<meta name="keywords" content="personas, template" />
+<meta name="description" content="Personas Template with microdata" />
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Personas Template</title>
+</head>
+
+<body>
+<header>
+	<h1>Personas Template</h1>
+	<span id="logo"><a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a></span>
+
+</header>
+<section>
+	<h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+	
+		<div class="personaInfo">
+			<h3>Type: Primary</h3>
+			<figure>
+				<img  itemprop="image" src="Elena.jpg" alt="persona image"  />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Elena</span> <span itemprop="familyName">Nastase</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">06/21/1973</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Female</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Bucharest, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Organization Name</span>, <span itemprop="jobTitle">Poet</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">University of Bucharest</span></li>
+						<li><strong>Technology Level:</strong> Barely use a computer</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<ul>
+						<li>Have a rich imagination;</li>
+						<li>Loves to read and write poems;</li>
+						<li>Knows how useful technology can be.</li>
+						<li>She is very organized</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<ul>
+						<li>Apply herself to becoming a better master of Romanian language;</li>
+						<li>Publish second full-length poetry collection;</li>
+						<li>Become faimous, rich or both.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<ul>
+						<li>She cannot keystroke fast enought; the thoughts, words and ideas run wild like horses;</li>
+						<li>writing is a lonely adventure; here only validation come from feedback, but nobody sends an email to say how great her poems are.</li>
+						<li>Writer's block</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p>Nastase Elena is a 43 Romanian poet. Educated in Bucharest, she went on to receive a degree in philology from the University of Bucharest, starting a grade school teacher career that lasted almost ten years, first in a village along the Danube, then in Bucharest. With her first book won the Romanian Writers Union Prize for a debut in poetry.</p>
+				<p>She knows how useful can be a computer and that's why she bought one, but has a bit of problem by using it. Her son, Dragos teached her how to use it: explain how to get for informations from the internet, how to be organized on the computer and how to write an save the documents. Elena learn quick and now she use the computer alone. There are moments when she have writer's block and use the internet for informations and moments when she have a lot of ideeas but cannot keystroke fast enought and lose some of that.</p>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p><strong>Looking for a word in dictionary:</strong> When she read poems she confonts with some words that she doesn't know what it means. Enter in dictionary application and search for that word. Now she knows what it means!</p>
+			<p><strong>Have an history about her work:</strong> She goes to her editor to show him the new poems that she had wrote lately. Enter in history an view all her last poems.</p>
+			<p><strong>Get a rhyme for a specific word:</strong> Sometimes she met some friends and play a game called: "Best Rhymes" where they must get the perfect rhyme in a context. She write the context in the application, select the last word from the previous line and the applications show her all the rhymes possible for that word and she choose the best.</p>
+		</div>
+			
+	
+</section>
+
+<footer id="footer">
+	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+How the user is introduced to the application?
+
+If the user is not logged in, there is a box with 4 options :
+1. She/he can watch a short video tutorial that shows the facility of the application and simulates the composition of a poem ; 
+2. She/he can read a series of frequently asked questions and answers ;
+3. She/he can enter directly into the application and composing a poem ;
+4. She/he can learn poetry's ABC. 
+
+It is important that the user understand how to use the app, interact with it, creating a text and in the end we given the option to register while presenting as arguments additional facilities offered. The tutorial video is the best way to learn step by step various operations . Having a FAQ sections can respond easily to visitors concerns .     
