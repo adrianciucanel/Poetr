@@ -1,3 +1,9 @@
+#header {
+	margin: 0 auto;
+	height: 71px;
+	width: 239px;
+}
+
 #header-logo {
 	float:left;
 	height:50px;
@@ -20,4 +26,22 @@
 
 #header-title h1 {
 	margin: 0px;
+}
+
+#center {
+	margin: 0 auto;
+	height: 200px;
+	width: 400px;
+}
+
+#options {
+	float: left;
+}
+
+#editor {
+	float: left;
+}
+
+#dictionary {
+	float: left;
 }
