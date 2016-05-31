@@ -1,5 +1,5 @@
 window.onload = function() {
-	CKEDITOR.replace( 'my_text' );
+	CKEDITOR.replace( 'my_text');
 	atachEventsToTextArea();
 }
 
