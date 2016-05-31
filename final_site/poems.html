@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poem Editor</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div id="main_container">
+      <div class="header">		
+	<div id="logo">
+	  <img src="images/logo.png" id="logo"/>
+	</div>
+	<div class="right_header">
+	  <div class="top_menu">
+	    <a href="#" class="login">Login</a>
+	    <a href="#" class="sign_up">Register</a>
+	    <a href="#" class="welcome">Welcome, Guest</a>
+	  </div>
+	   
+	  <div id="menu">
+	    <ul>
+	      <li><a class="current" href="#">Home</a></li>
+	      <li><a href="#">MyPoems</a></li>
+	      <li><a href="#">Drafts</a></li>
+	      <li><a href="#">Poem Editor</a></li>
+	      <li><a href="#">About Us</a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+
+      <div id="left">
+        <br />
+	<h1 style="color:green; text-align: center; font-size:30px">Options</h1>
+	<div id="options">
+	  <h2>Music</h2>
+          <div class="dropdown_music">
+            <button class="dropbtn">Select Music</button>
+	    <div class="dropdown_music_content">
+	      <a href="#">Music1</a>
+	      <a href="#">Music2</a>
+	      <a href="#">Music3</a>
+	    </div>
+          </div>
+	 <h2>Background</h2>
+	  <div class="dropdown_music">
+            <button class="dropbtn">Select Music</button>
+	    <div class="dropdown_music_content">
+	      <a href="#">Background1</a>
+	      <a href="#">Background2</a>
+	      <a href="#">Background3</a>
+	    </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right">
+	<div id="button_right">
+	  <button class="button_right">Dictionary</button>
+	  <button class="button_right">Rymes</button>
+	  <button class="button_right">Synonyms</button>
+	</div>
+	<h2 style="color:green; text-align: center; font-size:30px">Rhymes</h2>
+	<div id="rightmenu">
+	  <div id="textright">
+	    <input type="text">
+	    <button>Search</button>
+	  </div>
+	  <div class="textArea">
+	    <textarea style:width="150" height="150"></textarea>
+          </div>
+	  </div>
+	</div>
+
+		<div id="center">
+			<div id="text_buttons">
+			<!--Buttons -->
+    <input type="button" value="B"/>
+    <input type="button" value="I"/>
+    <input type="button" value="U"/>
+    			</div>
+    
+    <!--Text area -->
+	
+    <textarea class="text_edit" id="my_text"></textarea>
+    	
+			<div id="show_text">
+    <!-- Submit button -->
+    <input type="button" value="Show text" onclick="view_text()" />
+			</div>
+		</div>
+	  </div>
+	</body>
+</html>
