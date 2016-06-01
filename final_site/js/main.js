@@ -31,6 +31,10 @@ document.getElementById('wordsearch').addEventListener('keyup', function(event) 
     }
 });
 
+document.getElementById('src-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+    searchword();
+});
 
 var dataImage = localStorage.getItem('b');
 bannerImg = document.getElementById('body');
