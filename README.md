@@ -206,3 +206,33 @@ Options:
 Criteria:
 	-> easy to connect
 	-> connect with the world (make your app know on social networks) (sharing)
+
+### Usability Testing
+
+##### Usability Test Plan
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/Usability%20Test%20Plan.png?raw=true)
+
+##### Greeting and Consent Stefan
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/Consent%20Stefan.png?raw=true)
+
+##### Greeting and Consent Elena
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/Consent%20Elena.png?raw=true)
+
+##### Greeting and Consent Ioana
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/Consent%20Ioana.png?raw=true)
+
+##### User Background Stefan
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20Background%20Stefan.png?raw=true)
+
+##### User Background Elena
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20Background%20Elena.png?raw=true)
+
+##### User Background Ioana
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20Background%20Ioana.png?raw=true)
