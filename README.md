@@ -231,7 +231,7 @@ Criteria:
 
 ##### User Background Elena
 
-![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20Background%20Elena.png?raw=true)
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20background%20Elena.png?raw=true)
 
 ##### User Background Ioana
 
