@@ -95,7 +95,6 @@
 		<div id="top_right">
 		  <input type="text" width="40%" value="Title of Poem"/>
 		  <select id="type" name="type">
-			<option value="choose">Choose Type of Rhyme</option>
 			<option value="perfect">Perfect Rhyme</option>
 			<option value="general">General Rhyme</option>
 			<option value="identical">Identical Rhyme</option>

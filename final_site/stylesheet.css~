@@ -289,7 +289,7 @@ height:6%;
 width:60%;
 border: blue;
 margin-top:45%;
-margin-left:27%;
+margin-left:26%;
 position:absolute;
 }
 		
