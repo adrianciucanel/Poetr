@@ -38,10 +38,19 @@
       </div>
 
       <div id="left">
-        <br />
 	<h1 style="color:green; text-align: center; font-size:30px">Options</h1>
-	<div id="options">
+<div id="on_off">
 	  <h2>Music</h2>
+	  <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+        <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"></span>
+        </label>
+       </div>
+       </div>
+	<div id="options">
+	  
           <div class="dropdown_music">
             <button class="dropbtn">Select Music</button>
 	    <div class="dropdown_music_content" id="baf">
@@ -53,24 +62,25 @@
 	    </div>
           </div>
 	  <input type="file" name="file" id="file" class="inputfile"/>
+	  
 	 <h2>Background</h2>
 	  <div class="dropdown_music">
             <button class="dropbtn">Select Background</button>
 	    <div class="dropdown_music_content" id="bgf">
-	      <a href="#">Background01</a>
-	      <a href="#">Background02</a>
-	      <a href="#">Background03</a>
-		  <a href="#">Background04</a>
-		  <a href="#">Background05</a>
+	      <a href="#">background01</a>
+	      <a href="#">background02</a>
+	      <a href="#">background03</a>
+		  <a href="#">background04</a>
+		  <a href="#">background05</a>
 	    </div>
           </div>
 	<h2>Avatar</h2>
 	  <div class="dropdown_music">
             <button class="dropbtn" id ="selAvat">Select Avatar</button>
 	    <div class="dropdown_music_content">
-	      <a href="#">Avatar1</a>
-	      <a href="#">Avatar2</a>
-	      <a href="#">Avatar3</a>
+	      <a href="#">avatar1</a>
+	      <a href="#">avatar2</a>
+	      <a href="#">avatar3</a>
 	    </div>
           </div>
         </div>
@@ -83,14 +93,16 @@
 	  <button type="button" class="btn btn-danger" id="btnsin">Synonyms</button>   
 	</div>
 	  
-	  <h2 style="color:green; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
+	  <h2 style="color:red; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
 	<div id="rightmenu">
 	  <div id="textright">
 	    <input type="text" id="wordsearch">
 	    <button id="src-btn" type="button" class="btn btn-danger">Search</button>  
 	  </div>
-	  <div>
-	      <textarea id="result" rows="12" cols="36"></textarea>
+	  
+<div class="scroll-me" >
+	  <ul type="1" id ="listresult"></ul>
+	    
           </div>
 	<button id="add" type="button" class="btn btn-danger">Add</button> 
 	</div>
@@ -137,3 +149,4 @@
   </div>
 	</body>
 </html>
+
