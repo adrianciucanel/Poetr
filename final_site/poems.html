@@ -7,8 +7,9 @@
 	<!--<link rel="stylesheet" type="text/css" href="bootstrap.min.css">-->
 	<script src="js/ckeditor/ckeditor.js"></script>
 	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/scripts.js"></script>
+	
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
   </head>
 
   <body>
@@ -72,16 +73,17 @@
 
       <div id="right">
 	<div id="buttons_right">
-	  <button type="button" class="btn btn-danger">Dictionary</button>  
-	  <button type="button" class="btn btn-danger">Rhymes</button>  
-	  <button type="button" class="btn btn-danger">Synonyms</button>  
+	  <button type="button" class="btn btn-danger" id="btndic">Dictionary</button>  
+	  <button type="button" class="btn btn-danger" id="btnrim">Rhymes</button>  
+	  <button type="button" class="btn btn-danger" id="btnsin">Synonyms</button>  
 	</div>
 	<button id="add" type="button" class="btn btn-danger">Add</button>  
-	<h2 style="color:green; text-align: center; font-size:30px">Rhymes</h2>
+	<h2 style="color:green; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
 	<div id="rightmenu">
 	  <div id="textright">
-	    <input type="text">
+	    <input type="text" id="wordsearch">
 	    <button type="button" class="btn btn-danger">Search</button>  
+	
 	  </div>
 	  <div>
 	      <textarea id="result" rows="12" cols="37"></textarea>

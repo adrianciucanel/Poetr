@@ -322,4 +322,8 @@ font-size:100%;
 margin-left:2%;
 }
 
-
+#wordsearch{
+	background-image:url(images/search_icon.png);
+	background-repeat: no-repeat;
+	 padding-left:20px;
+}
