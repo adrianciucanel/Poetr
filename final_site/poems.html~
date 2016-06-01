@@ -7,8 +7,9 @@
 	<!--<link rel="stylesheet" type="text/css" href="bootstrap.min.css">-->
 	<script src="js/ckeditor/ckeditor.js"></script>
 	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/scripts.js"></script>
+	
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
   </head>
 
   <body>
@@ -49,13 +50,16 @@
 	      <a href="#">Music3</a>
 	    </div>
           </div>
+	  <input type="file" name="file" id="file" class="inputfile"/>
 	 <h2>Background</h2>
 	  <div class="dropdown_music">
             <button class="dropbtn">Select Background</button>
-	    <div class="dropdown_music_content">
-	      <a href="#">Background1</a>
-	      <a href="#">Background2</a>
-	      <a href="#">Background3</a>
+	    <div class="dropdown_music_content" id="bgf">
+	      <a href="#">Background01</a>
+	      <a href="#">Background02</a>
+	      <a href="#">Background03</a>
+		  <a href="#">Background04</a>
+		  <a href="#">Background05</a>
 	    </div>
           </div>
 	<h2>Avatar</h2>
@@ -72,22 +76,26 @@
 
       <div id="right">
 	<div id="buttons_right">
-	  <button type="button" class="btn btn-danger">Dictionary</button>  
-	  <button type="button" class="btn btn-danger">Rhymes</button>  
-	  <button type="button" class="btn btn-danger">Synonyms</button>  
+	  <button type="button" class="btn btn-danger" id="btndic">Dictionary</button>  
+	  <button type="button" class="btn btn-danger" id="btnrim">Rhymes</button>  
+	  <button type="button" class="btn btn-danger" id="btnsin">Synonyms</button>  
+	  <button type="button" class="btn btn-danger" id="add1">Synonyms</button>  
 	</div>
-	<button id="add" type="button" class="btn btn-danger">Add</button>  
-	<h2 style="color:green; text-align: center; font-size:30px">Rhymes</h2>
+	  
+	  <h2 style="color:green; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
 	<div id="rightmenu">
 	  <div id="textright">
-	    <input type="text">
-	    <button type="button" class="btn btn-danger">Search</button>  
+	    <input type="text" id="wordsearch">
+	    <button type="button" class="btn btn-danger">Search</button>
 	  </div>
 	  <div>
-	      <textarea id="result" rows="12" cols="37"></textarea>
+	      <textarea id="result" rows="12" cols="36"></textarea>
           </div>
+	<button id="add" type="button" class="btn btn-danger">Add</button> 
 	</div>
+ 
       </div>
+
 
 	<div id="center">
 	  <div id="center_top">
@@ -95,6 +103,7 @@
 		<div id="top_right">
 		  <input type="text" width="40%" value="Title of Poem"/>
 		  <select id="type" name="type">
+			<option value="choose">Choose Type of Rhyme</option>
 			<option value="perfect">Perfect Rhyme</option>
 			<option value="general">General Rhyme</option>
 			<option value="identical">Identical Rhyme</option>
