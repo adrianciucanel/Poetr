@@ -235,6 +235,8 @@ display:block;
 
 #result {
 position: relative;
+height:30%;
+width:90%;
 margin-left:4%;
 }
 
