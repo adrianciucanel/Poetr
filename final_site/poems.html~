@@ -38,7 +38,6 @@
       </div>
 
       <div id="left">
-        <br />
 	<h1 style="color:green; text-align: center; font-size:30px">Options</h1>
 	<div id="options">
 	  <div id="on_off">
@@ -93,7 +92,7 @@
 	  <button type="button" class="btn btn-danger" id="btnsin">Synonyms</button>   
 	</div>
 	  
-	  <h2 style="color:black; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
+	  <h2 style="color:red; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
 	<div id="rightmenu">
 	  <div id="textright">
 	    <input type="text" id="wordsearch">
