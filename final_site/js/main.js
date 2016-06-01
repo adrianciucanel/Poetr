@@ -103,7 +103,7 @@ function searchword(){
 	
 	switch(searchtype){
 		case "Rhymes": 
-		cautarima1();
+		cautarima();
 		break;
 		case "Dictionary": 
 		cautadictionar();
@@ -125,13 +125,12 @@ var cuvant = document.getElementById('wordsearch').value;
     dataType: 'json',
     success: function (data) {
 text1 =''; 
-     /*text1 += '<ul type="1">';*/
+     text1 += '<ul type="1" id ="listresult">';
       $.each(data.results, function (i, obj) {
-		  text1 +=' * '+obj['definition']+'\n';
-      /*  text1 += '<li>'+ theRhyme + '</li>'; */ 
+     text1 += '<li>'+ obj['definition'] + '</li>'; 
 		})
-     /*  text1 += '</ol>'; */ 
- 	document.getElementById('result').innerHTML = text1; 
+      text1 += '</ul>';  
+ 	document.getElementById('listresult').innerHTML = text1;
     },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
@@ -152,14 +151,13 @@ var cuvant = document.getElementById('wordsearch').value;
 		
     success: function (data) {
 		text1 =''; 
-     /*text1 += '<ul type="1">';*/
+      text1 += '<ul type="1" id ="listresult">';
       $.each(data.synonyms, function (i, sin) {
-		  text1 +=' * '+sin+'\n';
-      /*  text1 += '<li>'+ theRhyme + '</li>'; */ 
+		
+       text1 += '<li>'+ sin + '</li>';  
 		})
-     /*  text1 += '</ol>'; */ 
-  /*    document.getElementById('control').innerHTML = text1;*/
-	document.getElementById('result').innerHTML = text1;
+       text1 += '</ul>';  
+	document.getElementById('listresult').innerHTML = text1;
     },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
@@ -180,38 +178,12 @@ var cuvant = document.getElementById('wordsearch').value;
     dataType: 'json',
     success: function (data) {
 		text1 =''; 
-     /*text1 += '<ul type="1">';*/
-      $.each(data.rhymes.all, function (i, theRhyme) {
-		  text1 +=theRhyme+'\n';
-      /*  text1 += '<li>'+ theRhyme + '</li>'; */ 
-		})
-     /*  text1 += '</ol>'; */ 
-	 document.getElementById('result').innerHTML = text1;
-    },
-    error: function(err) { alert(err); },
-    beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Key", "ReGiQBvzCQmshF245ZczPPbYARaUp1zQj8XjsnrVrzhcMVVOEK"); // Enter here your Mashape key
-    }
-});
-} 
-
-function cautarima1(){
-var cuvant = document.getElementById('wordsearch').value;
-
-
- $.ajax({
-    url: 'https://wordsapiv1.p.mashape.com/words/'+cuvant+'/rhymes', // The URL to the API. You can get this in the API page of the API you intend to consume
-    type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
-    data: {}, // Additional parameters here
-    dataType: 'json',
-    success: function (data) {
-		text1 =''; 
      text1 += '<ul type="1" id ="listresult">';
       $.each(data.rhymes.all, function (i, theRhyme) {
 		 /*   text1 +=theRhyme+'\n';*/
       text1 += '<li>'+ theRhyme + '</li>';  
 		})
-       text1 += '</ol>';  
+       text1 += '</ul>';  
 	 document.getElementById('listresult').innerHTML = text1;
     },
     error: function(err) { alert(err); },
