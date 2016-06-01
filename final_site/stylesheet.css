@@ -150,26 +150,33 @@ width: 21%;
 color:black;	
 text-align:left;
 margin-left:0.5%;
-position:fixed;
+position:absolute;
 border:3px solid black;
 }
 
 #options {
-position: absolute;
+height:70%;
+width:85%;
+position: relative;
+padding: 10px 0 0 10px;
 margin-left: 5%;
+
+
 }
 
 .dropbtn {
 background-color:#4CAF50;
+position:relative;
 color:white;
 padding:10px;
 font-size:16px;
 border:none;
 cursor:pointer;
+border:2px solid yellow;
 }
 
 .dropdown_music {
-display:inline-block;
+display:inline;
 position:static;
 }
 
@@ -200,6 +207,63 @@ display:block;
 background-color:#3e8e41;
 }			
 
+#on_off {
+position:relative;
+height: 24%;
+width:90%;
+
+}
+.onoffswitch {
+    position: relative; width: 90px;
+       display:inline-block;
+       margin-top:0%;
+
+
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
 #right {
 margin-top:12%;
 height: 75%;
@@ -222,7 +286,7 @@ width: 97%;
 #buttons_right {
 position: relative;
 margin-top:2%;
-margin-left:1%;
+margin-left:10%;
 }
 		
 #textright {
@@ -349,7 +413,7 @@ margin-left:2%;
 background-image:url(images/search_icon.png);
 margin-top:3%;
 width:67%;
-height:70%;
+height:40px;
 background-repeat: no-repeat;
 padding-left:20px;
 }

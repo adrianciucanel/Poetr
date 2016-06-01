@@ -41,7 +41,16 @@
         <br />
 	<h1 style="color:green; text-align: center; font-size:30px">Options</h1>
 	<div id="options">
+	  <div id="on_off">
 	  <h2>Music</h2>
+	  <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+        <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"></span>
+        </label>
+       </div>
+       </div>
           <div class="dropdown_music">
             <button class="dropbtn">Select Music</button>
 	    <div class="dropdown_music_content" id="baf">
@@ -53,6 +62,7 @@
 	    </div>
           </div>
 	  <input type="file" name="file" id="file" class="inputfile"/>
+	  
 	 <h2>Background</h2>
 	  <div class="dropdown_music">
             <button class="dropbtn">Select Background</button>
@@ -83,7 +93,7 @@
 	  <button type="button" class="btn btn-danger" id="btnsin">Synonyms</button>   
 	</div>
 	  
-	  <h2 style="color:green; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
+	  <h2 style="color:red; text-align: center; font-size:30px" id="lblsearch">Rhymes</h2>
 	<div id="rightmenu">
 	  <div id="textright">
 	    <input type="text" id="wordsearch">
