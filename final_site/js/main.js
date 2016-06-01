@@ -24,6 +24,7 @@ document.getElementById('btnrim').addEventListener('click', setLblSearchRim);
 document.getElementById('btndic').addEventListener('click', setLblSearchDic);
 document.getElementById('btnsin').addEventListener('click', setLblSearchSin);
 document.getElementById('bgf').addEventListener("click", changebackground, false);
+document.getElementById('baf').addEventListener("click", updateSource, false);
 document.getElementById('wordsearch').addEventListener('click', function(event) {
 document.getElementById('wordsearch').style.backgroundImage="none";})
 document.getElementById('wordsearch').addEventListener('keyup', function(event) {
@@ -231,6 +232,21 @@ function getBase64Image(img) {
  
     e.stopPropagation();
 }
+  
+	  function updateSource(e) { 
+		 if (e.target !== e.currentTarget) {
+        var aud1 = 'audio/'+e.target.innerHTML+'.mp3';
+
+	  var audio = document.getElementById('audio');
+
+ 
+        audio.src=aud1;
+
+        audio.load(); //call this to just preload the audio without playing
+        audio.play(); //call this to play the song right away
+    }
+	  }
+ 
   
 function punetext(){
 	alert('sunt aici');
