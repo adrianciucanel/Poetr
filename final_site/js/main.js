@@ -23,6 +23,9 @@ function addlisteners(){
 document.getElementById('btnrim').addEventListener('click', setLblSearchRim);
 document.getElementById('btndic').addEventListener('click', setLblSearchDic);
 document.getElementById('btnsin').addEventListener('click', setLblSearchSin);
+document.getElementById('bgf').addEventListener("click", changebackground, false);
+document.getElementById('wordsearch').addEventListener('click', function(event) {
+document.getElementById('wordsearch').style.backgroundImage="none";})
 document.getElementById('wordsearch').addEventListener('keyup', function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
@@ -31,6 +34,10 @@ document.getElementById('wordsearch').addEventListener('keyup', function(event) 
     }
 });
 
+document.getElementById('src-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+    searchword();
+});
 
 var dataImage = localStorage.getItem('b');
 bannerImg = document.getElementById('body');
@@ -210,6 +217,26 @@ function getBase64Image(img) {
   }
 
   
+  
+  
+  function changebackground(e){
+	  if (e.target !== e.currentTarget) {
+        var img1 = 'url(images/'+e.target.innerHTML+'.jpg';
+	  $(document).ready(function() {
+		  
+        $('body').css('background-image', img1);
+		 
+	});
+  }
+ 
+    e.stopPropagation();
+}
+  
+function punetext(){
+	alert('sunt aici');
+	CKEDITOR.instances.my_text.insertText( ' line1 \n\n line2' );
+	
+}
   
 /*function f1() {
 	document.getElementById("main").style.backgroundColor: rgb(100,100,0);
