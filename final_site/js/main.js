@@ -24,6 +24,8 @@ function verifyedit(bodyEditor){
 		if (lg1>14){
 			if (data.charCodeAt(lg1-15)==10){
 					var poz1 = data.lastIndexOf(" ",lg1-13);
+					var poz1 = data.lastIndexOf(" ",poz1);
+					if (poz1>0){
 					var cuvant = String(data.substring(poz1+1,lg1-20));
 					lg1=cuvant.length;
 					var cuv="";
@@ -39,6 +41,7 @@ function verifyedit(bodyEditor){
 					cuv = document.getElementById('wordsearch').value;*/
 					if (cuv.length>1){
 				cautarima(cuv);
+					}
 					}
 			}
 		}
