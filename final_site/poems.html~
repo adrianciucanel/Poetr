@@ -27,7 +27,7 @@
 	   
 	  <div id="menu">
 	    <ul>
-	      <li><a class="current" href="/home">Home</a></li>
+	      <li><a class="current" href="home.html">Home</a></li>
 	      <li><a href="#">MyPoems</a></li>
 	      <li><a href="#">Drafts</a></li>
 	      <li><a href="#">Poem Editor</a></li>
@@ -54,11 +54,11 @@
           <div class="dropdown_music">
             <button class="dropbtn">Select Music</button>
 	    <div class="dropdown_music_content" id="baf">
-	      <a href="#">music01</a>
-	      <a href="#">music02</a>
-	      <a href="#">music03</a>
-		  <a href="#">music04</a>
-		  <a href="#">music05</a>
+	      <a href="#">deep_soul</a>
+	      <a href="#">forest_sound</a>
+	      <a href="#">rain_music</a>
+		  <a href="#">jazzy_beat</a>
+		  <a href="#">mistery</a>
 	    </div>
           </div>
 	  <input type="file" name="file" id="file" class="inputfile"/>
@@ -67,20 +67,20 @@
 	  <div class="dropdown_music">
             <button class="dropbtn">Select Background</button>
 	    <div class="dropdown_music_content" id="bgf">
-	      <a href="#">background01</a>
-	      <a href="#">background02</a>
-	      <a href="#">background03</a>
-		  <a href="#">background04</a>
-		  <a href="#">background05</a>
+	      <a href="#">mountain</a>
+	      <a href="#">desktop</a>
+	      <a href="#">milkyway</a>
+		  <a href="#">daysky</a>
+		  <a href="#">sunset</a>
 	    </div>
           </div>
 	<h2>Avatar</h2>
 	  <div class="dropdown_music">
             <button class="dropbtn" id ="selAvat">Select Avatar</button>
 	    <div class="dropdown_music_content">
-	      <a href="#">avatar1</a>
-	      <a href="#">avatar2</a>
-	      <a href="#">avatar3</a>
+	      <a href="#">Marcel</a>
+	      <a href="#">Hannah</a>
+	      <a href="#">Brian</a>
 	    </div>
           </div>
         </div>
@@ -139,6 +139,7 @@
 	    <button type="button" class="btn btn-danger" id="button">Save as Draft</button>  
 	    <button type="button" class="btn btn-danger" id="button">Done</button>
 	    <button type="button" class="btn btn-danger" id="button">Share</button>
+	    <button type="button" class="btn btn-danger" id="button">Print</button>  
 	  </div>
 	</div>
   </div>
