@@ -93,6 +93,11 @@
 				<img src="./images/viewwords.png" class="logo"/>
 			</ul>
 			<ul>
+				<li>Using the add button you can enter your word in textarea:</li>
+				<br/>
+				<img src="./images/add.png" class="logo"/>
+			</ul>
+			<ul>
 				<li>And the middle of our application where you can write your poems:</li>
 				<br/>
 				<img src="./images/text.png" class="logo"/>
