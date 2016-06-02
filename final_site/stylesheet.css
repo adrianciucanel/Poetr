@@ -1,32 +1,4 @@
-﻿
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @rolpenet
-
-3
-1
-
-    2
-
-adrianciucanel/Poetr
-Code
-Issues 0
-Pull requests 0
-Wiki
-Pulse
-Graphs
-Poetr/final_site/stylesheet.css
-3d97aa0 14 hours ago
-@theorazvan theorazvan top_right
-@theorazvan
-@rolpenet
-349 lines (301 sloc) 4.44 KB
-body {
+﻿body {
   background-image: url(images/background02.png);
   margin:0px;
   padding:0px;
