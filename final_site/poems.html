@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title>Poem Editor</title>
@@ -44,10 +44,12 @@
 	  <h2>Music</h2>
           <div class="dropdown_music">
             <button class="dropbtn">Select Music</button>
-	    <div class="dropdown_music_content">
-	      <a href="#">Music1</a>
-	      <a href="#">Music2</a>
-	      <a href="#">Music3</a>
+	    <div class="dropdown_music_content" id="baf">
+	      <a href="#">music01</a>
+	      <a href="#">music02</a>
+	      <a href="#">music03</a>
+		  <a href="#">music04</a>
+		  <a href="#">music05</a>
 	    </div>
           </div>
 	  <input type="file" name="file" id="file" class="inputfile"/>
@@ -128,6 +130,11 @@
 	    <button type="button" class="btn btn-danger" id="button">Share</button>
 	  </div>
 	</div>
+  </div>
+<div style="display:none">
+   <audio id="audio" controls>
+  <source src="audio/music01.mp3" type="audio/mpeg">
+</audio> 
   </div>
 	</body>
 </html>
