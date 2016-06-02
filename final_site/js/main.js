@@ -66,6 +66,7 @@ document.getElementById('btnsin').addEventListener('click', setLblSearchSin);
 document.getElementById('bgf').addEventListener("click", changebackground, false);
 document.getElementById('baf').addEventListener("click", updateSource, false);
 document.getElementById('selAvat').addEventListener("click", updateAvat, false);
+document.getElementById('listresult').addEventListener('click', addWord);
 document.getElementById('wordsearch').addEventListener('click', function(event) {
 document.getElementById('wordsearch').style.backgroundImage="none";})
 document.getElementById('wordsearch').addEventListener('keyup', function(event) {
@@ -102,7 +103,7 @@ function searchword(){
 	
 	switch(searchtype){
 		case "Rhymes": 
-		cautarima();
+		cautarima1();
 		break;
 		case "Dictionary": 
 		cautadictionar();
@@ -194,7 +195,31 @@ var cuvant = document.getElementById('wordsearch').value;
 });
 } 
 
+function cautarima1(){
+var cuvant = document.getElementById('wordsearch').value;
 
+
+ $.ajax({
+    url: 'https://wordsapiv1.p.mashape.com/words/'+cuvant+'/rhymes', // The URL to the API. You can get this in the API page of the API you intend to consume
+    type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
+    data: {}, // Additional parameters here
+    dataType: 'json',
+    success: function (data) {
+		text1 =''; 
+     text1 += '<ul type="1" id ="listresult">';
+      $.each(data.rhymes.all, function (i, theRhyme) {
+		 /*   text1 +=theRhyme+'\n';*/
+      text1 += '<li>'+ theRhyme + '</li>';  
+		})
+       text1 += '</ol>';  
+	 document.getElementById('listresult').innerHTML = text1;
+    },
+    error: function(err) { alert(err); },
+    beforeSend: function(xhr) {
+    xhr.setRequestHeader("X-Mashape-Key", "ReGiQBvzCQmshF245ZczPPbYARaUp1zQj8XjsnrVrzhcMVVOEK"); // Enter here your Mashape key
+    }
+});
+} 
 
 function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
@@ -290,10 +315,10 @@ function getBase64Image(img) {
  
  function updateAvat(e){
 	 if (e.target !== e.currentTarget) {
-        var img1 = 'url(images/'+e.target.innerHTML+'.png';
+        var img1 = 'images/'+e.target.innerHTML+'.png';
 	  $(document).ready(function() {
 		  
-        $('avat').css('src', img1);
+        $('#avat').attr('src',img1);
 		 
 	});
   }
@@ -301,9 +326,24 @@ function getBase64Image(img) {
     e.stopPropagation();
 	 
  }
-  
+
+function addWord(e){
+	 if (e.target !== e.currentTarget) {
+        var cuvant = e.target.innerText;
+	  $(document).ready(function() {
+		  
+        CKEDITOR.instances.my_text.insertText(cuvant);
+		 
+	});
+  }
+ 
+    e.stopPropagation();
+	 
+ }
+ 
 function punetext(){
 	alert('sunt aici');
+/*	 var data = CKEDITOR.instances.editor1.getData();*/
 	CKEDITOR.instances.my_text.insertText( ' line1 \n\n line2' );
 	
 }

@@ -418,5 +418,17 @@ background-repeat: no-repeat;
 padding-left:20px;
 }
 
+.scroll-me {
+  width: 70%;
+  height: 20rem;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  padding:1em;
+  background-color: rgba(250,250,250,1);
+}
 
+.scroll-me ul{
+  padding:1em;
+  background-color: rgba(250,250,250,1);
+}
 
