@@ -4,9 +4,47 @@
 window.onload = function() {
 	addlisteners();
 	checkcookies();
-	CKEDITOR.replace( 'my_text');
+	var credit = CKEDITOR.replace( 'my_text');
 	atachEventsToTextArea();
+	verifyedit(credit);
+}
+
+function verifyedit(bodyEditor){
 	
+	bodyEditor.on('mode', function () {
+    if (this.mode == 'source') {
+        var editable = bodyEditor.editable();
+        editable.attachListener(editable, 'input', function () {
+              });
+    }
+});
+	bodyEditor.on('change', function () {
+		var data = CKEDITOR.instances.my_text.getData();
+		var lg1 = data.length; 
+		if (lg1>14){
+			if (data.charCodeAt(lg1-15)==10){
+					var poz1 = data.lastIndexOf(" ",lg1-13);
+					var cuvant = String(data.substring(poz1+1,lg1-20));
+					lg1=cuvant.length;
+					var cuv="";
+					for (var i =0;i<lg1;i++){
+						var s1=cuvant.charCodeAt(i);
+						if ((s1>64 && s1<91) || (s1>96 && s1<123) ){
+							cuv +=cuvant.charAt(i);
+						}
+						
+					}
+	/*				alert ("cuv"+cuvant);
+					document.getElementById('wordsearch').innerText=cuv;
+					cuv = document.getElementById('wordsearch').value;*/
+					if (cuv.length>1){
+				cautarima(cuv);
+					}
+			}
+		}
+		
+   /* alert('change fired');*/
+});
 }
 
 function atachEventsToTextArea() {
@@ -69,6 +107,14 @@ document.getElementById('selAvat').addEventListener("click", updateAvat, false);
 document.getElementById('listresult').addEventListener('click', addWord);
 document.getElementById('wordsearch').addEventListener('click', function(event) {
 document.getElementById('wordsearch').style.backgroundImage="none";})
+document.getElementById('add').addEventListener('click', getDataFromEditor);
+document.getElementById('add').addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+	
+       getDataFromEditor();
+    }
+});
 document.getElementById('wordsearch').addEventListener('keyup', function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
@@ -100,10 +146,11 @@ function setLblSearchSin(){
 
 function searchword(){
 	var searchtype = document.getElementById('lblsearch').textContent;
-	
+	var cuvant = document.getElementById('wordsearch').value;
 	switch(searchtype){
+		
 		case "Rhymes": 
-		cautarima();
+		cautarima(cuvant);
 		break;
 		case "Dictionary": 
 		cautadictionar();
@@ -115,8 +162,8 @@ function searchword(){
 	
 }
 
-function cautadictionar(){
-var cuvant = document.getElementById('wordsearch').value;
+function cautadictionar(cuvant){
+
 
  $.ajax({
     url: 'https://wordsapiv1.p.mashape.com/words/'+cuvant, // The URL to the API. You can get this in the API page of the API you intend to consume
@@ -167,8 +214,8 @@ var cuvant = document.getElementById('wordsearch').value;
 } 		
 
 
-function cautarima(){
-var cuvant = document.getElementById('wordsearch').value;
+function cautarima(cuvant){
+
 
 
  $.ajax({
@@ -186,7 +233,7 @@ var cuvant = document.getElementById('wordsearch').value;
        text1 += '</ul>';  
 	 document.getElementById('listresult').innerHTML = text1;
     },
-    error: function(err) { alert(err); },
+    error: function(err) { alert("eroare"+err); },
     beforeSend: function(xhr) {
     xhr.setRequestHeader("X-Mashape-Key", "ReGiQBvzCQmshF245ZczPPbYARaUp1zQj8XjsnrVrzhcMVVOEK"); // Enter here your Mashape key
     }
@@ -313,14 +360,9 @@ function addWord(e){
 	 
  }
  
-function punetext(){
-	alert('sunt aici');
-/*	 var data = CKEDITOR.instances.editor1.getData();*/
-	CKEDITOR.instances.my_text.insertText( ' line1 \n\n line2' );
+  
+function getDataFromEditor(){
+	 var data = CKEDITOR.instances.my_text.getData();
+	 document.getElementById('test').innerHTML = data;
 	
 }
-  
-/*function f1() {
-	document.getElementById("main").style.backgroundColor: rgb(100,100,0);
-}*/
-
