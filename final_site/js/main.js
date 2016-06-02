@@ -3,8 +3,9 @@
 
 window.onload = function() {
 	addlisteners();
+	checkcookies();
 	CKEDITOR.replace( 'my_text');
-atachEventsToTextArea();
+	atachEventsToTextArea();
 	
 }
 
@@ -16,6 +17,45 @@ function checkLastWord() {
 	
 }
 
+function checkcookies(){
+	
+	
+}
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+} 
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+} 
+
+function checkCookieUser() {
+    var user = getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 365);
+        }
+    }
+}
+
 
 function addlisteners(){
 
@@ -25,6 +65,7 @@ document.getElementById('btndic').addEventListener('click', setLblSearchDic);
 document.getElementById('btnsin').addEventListener('click', setLblSearchSin);
 document.getElementById('bgf').addEventListener("click", changebackground, false);
 document.getElementById('baf').addEventListener("click", updateSource, false);
+document.getElementById('selAvat').addEventListener("click", updateAvat, false);
 document.getElementById('wordsearch').addEventListener('click', function(event) {
 document.getElementById('wordsearch').style.backgroundImage="none";})
 document.getElementById('wordsearch').addEventListener('keyup', function(event) {
@@ -247,6 +288,19 @@ function getBase64Image(img) {
     }
 	  }
  
+ function updateAvat(e){
+	 if (e.target !== e.currentTarget) {
+        var img1 = 'url(images/'+e.target.innerHTML+'.png';
+	  $(document).ready(function() {
+		  
+        $('avat').css('src', img1);
+		 
+	});
+  }
+ 
+    e.stopPropagation();
+	 
+ }
   
 function punetext(){
 	alert('sunt aici');
