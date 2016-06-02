@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Your Website</title>
+	<link rel="stylesheet" type="text/css" href="userguide.css"
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li>Home Page</li>
+				<li>Page Editor</li>
+				<li>Home Page</li>
+				<li>Home Page</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<article>
+			<header>
+				<h2>Write a poem with EasyPoetry</h2>
+			</header>
+			<ul>
+				<li>This is the first page of the application where you can view a tutorial about how to use EasyPoetry.</li>
+				<li>You can also use the options and words menu.
+				<br/>
+				<img src="./images/tutorial.png" class="logo"/>
+
+				<li>To login and register the meniu is on right top of the page:</li>
+				<br/>
+				<img src="./images/login.png" class="logo"/>
+
+				<li>For exploaring de web site we have a menu under de login and register section:</li>
+				<br/>
+				<img src="./images/movepage.png" class="logo"/>
+			</ul>
+		</article>
+		<article>
+			<ul>
+				<li>This is the main page of our application. Here you found all that you need to write your poems.</li>
+				<br/>
+				<img src="./images/poemEditor.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>On the left page we have the options menu:</li>
+				<br/>
+				<img src="./images/options.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Where you can stop playing the music</li>
+				<br/>
+				<img src="./images/onoffmusic.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Select another music:</li>
+				<br/>
+				<img src="./images/music.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Change your background picture:</li>
+				<br/>
+				<img src="./images/background.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Or even your avatar picture</li>
+				<br/>
+				<img src="./images/avatar.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>On the right of the page we have the word menu:</li>
+				<br/>
+				<img src="./images/words.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Here you can look for a word in dictionary, or get a synonym for a word, or get a rhyme:</li>
+				<br/>
+				<img src="./images/wordbuttons.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>We also have a search input if you want to look for a specific word</li>
+				<br/>
+				<img src="./images/wordsearch.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Under the search section we have the view word section where you can pick the rhyme you need</li>
+				<br/>
+				<img src="./images/viewwords.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>And the middle of our application where you can write your poems:</li>
+				<br/>
+				<img src="./images/text.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>In the top of this section you can write your poem's title and choose you're type of rhyme you want to use</li>
+				<br/>
+				<img src="./images/typerhyme.png" class="logo"/>
+			</ul>
+			<ul>
+				<li>Under the text area we have button for restart, save your picture as a draft, finishing your poem and share with other people:</li>
+				<br/>
+				<img src="./images/buttonsdown.png" class="logo"/>
+			</ul>
+			
+		</article>
+		
+	</section>
+
+	<footer>
+		<p>Copyright 2009 <em>EasyPoetry</em</p>
+	</footer>
+
+</body>
+
+</html>
