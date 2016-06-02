@@ -166,7 +166,7 @@ function searchword(){
 }
 
 function cautadictionar(cuvant){
-
+var cuvant = document.getElementById('wordsearch').value;
 
  $.ajax({
     url: 'https://wordsapiv1.p.mashape.com/words/'+cuvant, // The URL to the API. You can get this in the API page of the API you intend to consume
