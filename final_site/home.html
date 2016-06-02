@@ -27,10 +27,10 @@
 	   
 	  <div id="menu">
 	    <ul>
-	      <li><a class="current" href="/home">Home</a></li>
+	      <li><a class="current" href="home.html">Home</a></li>
 	      <li><a href="#">MyPoems</a></li>
 	      <li><a href="#">Drafts</a></li>
-	      <li><a href="#">Poem Editor</a></li>
+	      <li><a href="poems.html">Poem Editor</a></li>
 	      <li><a href="#">About Us</a></li>
 	    </ul>
 	  </div>
@@ -106,42 +106,16 @@
           </div>
 	<button id="add" type="button" class="btn btn-danger">Add</button> 
 	</div>
- 
+      </div>
+	<div id="welcome_text">
+          <p>Welcome to <strong class="strong">EasyPoetry</strong>. Watch out our video tutorial to see what you can do:</p>
+	</div>
+      <div id="center_home">
+        <video width="600" controls>
+	<source src="/home/dabija/Desktop/intro.mp4" type="video/mp4">
       </div>
 
-
-	<div id="center">
-	  <div id="center_top">
-	      <img class="avatar" src="images/avatar.png" alt="Avatar" id="avat"/>
-		<div id="top_right">
-		  <input type="text" width="40%" value="Title of Poem"/>
-		  <select id="type" name="type">
-			<option value="choose">Choose Type of Rhyme</option>
-			<option value="perfect">Perfect Rhyme</option>
-			<option value="general">General Rhyme</option>
-			<option value="identical">Identical Rhyme</option>
-			<option value="eye">Eye Rhyme</option>
-			<option value="mind">Mind Rhyme</option>
-			<option value="tail">Tail Rhyme</option>
-			<option value="internal">Internal Rhyme</option>
-			<option value="off-centered">Off-centered Rhyme</option>
-			<option value="holorime">Holorime</option>
-			<option value="broken">Broken Rhyme</option>
-			<option value="cross">Cross Rhyme</option>
-		  </select>
-		</div>
-	  </div>
-	  <div id ="text">
-	    <textarea class="text_edit" id="my_text"></textarea>
-	  </div>
-	  <div id="buttons_center">
-	    <button type="button" class="btn btn-danger" id="button">Restart</button>  
-	    <button type="button" class="btn btn-danger" id="button">Save as Draft</button>  
-	    <button type="button" class="btn btn-danger" id="button">Done</button>
-	    <button type="button" class="btn btn-danger" id="button">Share</button>
-	  </div>
-	</div>
-  </div>
+	
 <div style="display:none">
    <audio id="audio" controls loop>
   <source src="audio/music01.mp3" type="audio/mpeg">

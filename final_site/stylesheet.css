@@ -33,6 +33,7 @@ height:100%;
 width:50%;
 height:100%;
 margin-left:5%;
+margin-top:-1%;
 padding:0 5% 0 0;
 float:left;
 
@@ -419,6 +420,27 @@ width:67%;
 height:40px;
 background-repeat: no-repeat;
 padding-left:20px;
+}
+
+#welcome_text {
+height:12%;
+width:53%;
+position:absolute;
+margin-top:11.5%;
+margin-left:24%;
+color:black;
+font-weight:bold;
+font-size:24px;
+}
+
+#center_home {
+position:absolute;
+margin-top:17%;
+margin-left:27%
+}
+
+.strong {
+color:#00FFFF;
 }
 
 .scroll-me {
