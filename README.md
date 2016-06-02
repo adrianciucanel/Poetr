@@ -236,3 +236,17 @@ Criteria:
 ##### User Background Ioana
 
 ![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/site/User%20Background%20Ioana.png?raw=true)
+
+### Pictures from usability testing
+
+##### User 1
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/usability_test/imgpsh_fullsize.jpg?raw=true)
+
+#### User 2
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/usability_test/IMG_20160601_201928.jpg?raw=true)
+
+#### User 3
+
+![alt tag](https://github.com/adrianciucanel/Poetr/blob/master/usability_test/IMG_20160601_201527.jpg?raw=true)
