@@ -16,7 +16,7 @@
     <div id="main_container1">
       <div class="header">		
 	<div id="logo">
-	  <img src="images/logo.png" id="logo"/>
+	  <img src="images/logo1.png" id="logo"/>
 	</div>
 	<div class="right_header">
 	  <div class="top_menu">
@@ -30,7 +30,7 @@
 	      <li><a class="current" href="home.html">Home</a></li>
 	      <li><a href="#">MyPoems</a></li>
 	      <li><a href="#">Drafts</a></li>
-	      <li><a href="#">Poem Editor</a></li>
+	      <li><a href="poems.html">Poem Editor</a></li>
 	      <li><a href="#">About Us</a></li>
 	    </ul>
 	  </div>
