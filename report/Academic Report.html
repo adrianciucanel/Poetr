@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://scholarly.vernacular.io/ -->
+<html lang="en-GB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>Easy Poetry</title>
+    <link rel="stylesheet" href="./Academic Report_files/scholarly.css">
+    <link rel="stylesheet" href="./Academic Report_files/prism-coy.css">
+    <script src="./Academic Report_files/prism.js" defer=""></script>
+  </head>
+  <body prefix="schema: http://schema.org/ xsd: http://www.w3.org/2001/XMLSchema# sa: https://ns.science.ai/">
+    <header>
+      <p class="title">EasyPoetry</p>
+    </header>
+    <article id="what" typeof="schema:ScholarlyArticle" resource="#">
+      <h1>What is EasyPoetry?</h1>
+      <section>
+        <ol>
+          <li property="schema:author" typeof="sa:ContributorRole">
+            <a property="schema:author" href="#" typeof="schema:Person">
+              <span property="schema:givenName">Adrian</span>
+              <span property="schema:familyName">Ciucanel</span>
+            </a>
+          </li>
+          <li property="schema:author" typeof="sa:ContributorRole">
+            <a property="schema:author" href="#" typeof="schema:Person">
+              <span property="schema:givenName">Sergiu-Petronel</span>
+              <span property="schema:familyName">Gutanu</span>
+            </a>
+          </li>
+	  <li property="schema:author" typeof="sa:ContributorRole">
+            <a property="schema:author" href="#" typeof="schema:Person">
+              <span property="schema:givenName">Theodor-Razvan</span>
+              <span property="schema:familyName">Dabija</span>
+            </a>
+          </li>
+        </ol>
+      </section>
+
+      <section typeof="sa:Abstract" id="abstract">
+        <h2>Abstract</h2>
+        <p>
+	  Poetry is a form of literature that uses aesthetic and rhytmic qualities of language - 
+	  such as phonaesthetics, sound symbolism, and metre - to evoke meanings is addition to, or
+	  in place of, the prosaic ostensible meaning.
+	  Poetry has a long history dating back to the Sumerian Epic of Gilgamesh. Early poems evolved
+	  from folk songs such as the Chinese Shijing, or from a need to retell oral epics.
+        </p>
+      </section>
+      <section typeof="sa:MaterialsAndMethods" id="motivation">
+        <h2>Motivation</h2>
+        <aside typeof="schema:WPSideBar">
+          <p>
+            <strong>New</strong>: you can now join the
+            <a href="https://github.com/adrianciucanel/Poetr">EasyPoetry</a>
+            to help make this a better application.
+          </p>
+          <p>
+            This document is an early-stage release. While the underlying format is relatively
+            mature and actually implemented, details are still in flux and the format can still be
+            changed. The quality of this document is also being gradually improved. If you’re
+            interested in this project, come join
+            <a href="https://github.com/adrianciucanel/Poetr">the party on GitHub</a>.
+          </p>
+        </aside>
+        <p>
+          Poetry uses forms and conventions to suggest differential interpretation to words, or to evoke 
+	  emotive responses. Devices such as assonance, alliteration, onomatopoeia and rhythm are sometimes
+	  used to achieve musical or incantatory effects. The use of ambiguisty, symbolism, irony, and other 
+	  stylistic elements of poetic diction often leaves a poem open to multiple interpretations. 
+	  
+        </p>
+        <p>
+          Some poetry types are specific to particular cultures and genres and respond to charasteristics of the language in wich
+	  the poet writes. Readers accustomed to identifying poetry with Dante, Goethe, Mickiewicz and Rumi may think of it as 
+	  written in lines based on rhyme and regular meter; there are, however, traditions that use other means to create rhythm
+	  an euphony. Much modern poetry reflects a critique of poetic tradition, playing with and testing, among other things, 
+	  the principle of euphony itself, sometimes altogether forgoing rhyme or set rhythm. In today's increasing globalized world, 
+	  poets often adapt form styles and techiques from diverse cultures and languages.
+        </p>
+        <p>
+          Our high-level goals were:
+        </p>
+        <ul>
+          <li>
+            Contribute to the growth of poetry throughout the state.
+          </li>
+          <li>
+            Make a website for help people to right poems;
+          </li>
+          <li>
+            Powerfully customisable for inclusion in arbitrary Web sites, while remaining easy to
+            process and interoperable.
+          </li>
+          <li>
+            Entirely built on top of open, royalty-free standards.
+          </li>
+          <li>
+            Long-term viability as a data format.
+          </li>
+        </ul>
+	
+      </section>
+      <section typeof="sa:Results" id="definition">
+        <h2>Definition</h2>
+        <p>
+          <dfn id="scholarly-html">EasyPoetry</dfn> aims to be a useful and easy for both casual users who want to write some lyrics and intensive users.
+		  It includes a text editor where the clients can easily write poems, receive appropriate rhymes, examine the definition of a term, keep and manage writings, share poems on social networks, create an pleasant and friendly environment for the act of creation.
+        </p>
+		<h2>Users targeted</h2>
+		<ul>
+		<li>writers who compose poems;</li>
+		<li>students at the universities of literary profile;</li>
+		<li>educators and teachers who work with children;</li>
+		<li>parents who use rhymes as method of learning and inspire values;</li>
+		<li>people in love who want to express their feelings in chosen words;</li>
+		</ul>
+		<h2>Project</h2>
+		<p>We looked through the internet to find applications that have a similar profile. We found several applications that offer interesting features and  a number of sites offering rhymes based on a search word, mostly in english language.
+There are a few sites that offer rhymes in romanian language (<a href="http://www.rimeaza.org">rimeaza.org</a>). 
+<p>Initially, we intended to make an application in the Romanian language. We found a free dictionary in sqlite database format with words and explanations la <a href="http://www.dexonline.ro">dexonline.ro</a>. 
+We abandoned the idea because the contents had to be processed( the words have accents, not always respect the same format, we have to establish declination rules, how to divide into syllables etc.) which would have taken some time.</p>
+<p>We found instead a free API in English which offering to a number of requests per day a lot of facilities: definitions of words, rhymes , synonyms , antonyms , words with similar meaning , number of syllables.</p> 		
+
+		<h2>Method of Implementation</h2>
+		<p>As implementation we thought to use</p>
+		<ul>
+		<li>HTML + CSS + JavaScript for portability and spread the browsers</li>
+		<li>Web server Java</li>
+		<li><a href="https://www.wordsapi.com">WordsAPI</a></li>
+		</ul>
+<!--		<h2>User interaction</h2>
+		<h2>User testing</h2> -->
+		<h2>Future improvements</h2>
+		<ul>
+		<li>adaptation for mobile devices</li>
+		<li>reducing the number of rhyming by returning close semantic words /li>
+		<li></li>
+		<li></li>
+		</ul>
+		
+  
+
+</body></html>
